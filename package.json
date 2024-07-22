@@ -1,0 +1,29 @@
+{
+  "name": "mysql-ts",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node-dev src/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Jay Jakkrit",
+  "license": "ISC",
+  "description": "Node Express.js Connect MySQL - TypeScript",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.10.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/morgan": "^1.9.9"
+  }
+}
